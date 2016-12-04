@@ -9,5 +9,5 @@ $defflip = (!cfip()) ? exit(header('HTTP/1.1 401 Unauthorized')) : 1;
  * here to let MPOS api report the correct coin algorithm.
  **/
 class Coin extends CoinBase {
-  protected $target_bits = 16;
+  protected $target_bits = 20;
 }
