@@ -23,9 +23,13 @@
 	<li><em>Intel/ATI/AMD CGMiner (3.7.2) Linux:</em> <a href="http://ck.kolivas.org/apps/cgminer/3.7/cgminer-3.7.0.tar.bz2" target="_blank">Download Here</a></li>	
 	<li><em>NVIDIA Cudaminer:</em><a href="https://bitcointalk.org/index.php?topic=167229.0" target="_blank"> Download here</a></li>
 	{/if}
-	<li><em>Intel/ATI/AMD BFGMiner Linux/Windows:</em> <a href="http://bfgminer.org" target="_blank">Download here</a></li>
-        <li><em>Fabulous Panda Miner Mac OS X:</em> <a href="http://fabulouspanda.co.uk/macminer/" target="_blank">Download here</a></li>
-        <li><em>Minerd CPU Miner Mac/Linux/Windows:</em><a href="https://bitcointalk.org/index.php?topic=55038.msg654850#msg654850" target="_blank"> Download here</a>.</li>
+	{if $GLOBAL.config.algorithm == 'equihash'}
+	<li><em>AMD/CUDA GPU Miner Windows/Linux (Claymore):</em> <a href="https://bitcointalk.org/index.php?topic=1670733.0" target="_blank">Download here</a></li>	
+	<li><em>AMD GPU Miner Windows (Genoil):</em> <a href="https://github.com/Genoil/ZECMiner" target="_blank">Download Here</a></li>	
+	<li><em>AMD GPU Miner Linux (Silentarmy):</em><a href="https://github.com/mbevand/silentarmy" target="_blank"> Download here</a></li>
+	<li><em>CUDA/AMD/CPU Miner Windows:</em><a href="https://github.com/feeleep75/nheqminer/releases/" target="_blank"> Download here</a></li>
+	<li><em>CPU Miner Linux:</em><a href="https://github.com/feeleep75/nheqminer/" target="_blank"> Download here</a></li>
+	{/if}
       </ul>
     </li>
     <p>3. <strong>Configure your miner.</strong></p>
